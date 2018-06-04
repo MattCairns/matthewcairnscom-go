@@ -1,0 +1,69 @@
+{{define "header"}}
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>Matthew Cairns</title>
+  <meta name="description" content="A website of things.">
+  <meta name="author" content="Matthew Cairns">
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS
+  ================================================== -->
+
+  <link rel="stylesheet" type="text/css" href="https://d2wyztt7kkorr5.cloudfront.net/skeleton.min.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/layout.css">
+  <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,900,700italic' rel='stylesheet' type='text/css'>
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Favicons
+  ================================================== 
+  <link rel="shortcut icon" href="images/favicon.ico">-->
+
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/sss.min.js"></script>
+<link rel="stylesheet" href="../assets/css/sss.css" type="text/css" media="all">
+
+<script>
+jQuery(function($) {
+	$('.slider').sss({
+		speed : 5000,
+		showNav : true
+});
+});
+</script>
+<body>
+
+  <!-- Header Layout
+  ================================================== -->
+      <div class="blackbar"></div>
+      <!-- Header -->
+      <div class="container">
+	  <div class="topbar sixteen columns">
+	    <h1 class="logo-text">Matthew Cairns</h1>
+	    <ul class="menu-items">
+	      <li> <a href="/">Home</a> </li>
+	      <li> <a href="/projects">Projects</a> </li>
+	      <li> <a href="https://github.com/MattCairns">Github</a> </li>
+	      <li> <a href="/contact">Contact</a> </li>
+	    </ul>
+	    <hr />
+	  </div>
+	</div>
+	<div class="container">
+
+
+
+{{end}}

@@ -1,0 +1,263 @@
+/* Table of Content
+==================================================
+#Site Styles
+#Page Styles
+#Media Queries
+#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	background-color: #f6f6f6;
+	margin: 0;
+	padding: 0;
+
+}
+
+a {
+	color: #282725; 
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.logo-text {
+	font-family:  'Playfair Display';
+	font-weight: 700;
+	font-style: italic;
+	font-size: 30px;
+	color: #726f6b;
+
+}
+
+.menu-items {
+	font-family: serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+
+}
+
+.menu-items li {
+	display: inline;
+	padding: 0 10px;
+
+
+}
+
+.blackbar {
+	background-color: black;
+	height: 5px;
+	margin-bottom: 20px;
+}
+
+.topbar {
+	text-align: center;
+	margin-top: 0px;
+
+}
+
+#copyright {
+	text-align: right;
+	font-size: 0.9em;
+	margin-left: auto;
+	margin-right: 10px;
+	padding-top: 15px;
+}
+
+.footerbar {
+	margin-top: 2%;
+	margin-bottom: 5px;
+}
+
+.well {
+	min-height: 20px;
+	padding: 19px;
+
+	background-color: #e1e1e1;
+	border: 1px solid #d3d3d3;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.09);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.error {
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* #Slider Styles
+================================================== */
+.slider li img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 100%;
+	height: auto;
+}
+
+/* #Contact Styles
+================================================== */
+.contactForm  {
+	width: 221px;
+	height: 300px;
+	margin: 0 auto;
+
+}
+
+.contactBtn {
+	width: 100%;
+}
+
+.thankYou {
+	width : 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* #Media Queries
+================================================== */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+Just create a "fonts" folder at the root,
+copy your FontName into code below and remove
+comment brackets */
+
+/*	@font-face {
+font-family: 'FontName';
+src: url('../fonts/FontName.eot');
+src: url('../fonts/FontName.eot?iefix') format('eot'),
+url('../fonts/FontName.woff') format('woff'),
+url('../fonts/FontName.ttf') format('truetype'),
+url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+font-weight: normal;
+font-style: normal; }
+ */
+
+.container {
+max-width: 800px; }
+.header {
+	margin-top: 6rem;
+text-align: center; }
+.value-prop {
+margin-top: 1rem; }
+.value-props {
+	margin-top: 4rem;
+margin-bottom: 4rem; }
+.docs-header {
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	letter-spacing: .2rem;
+font-weight: 600; }
+.docs-section {
+	border-top: 1px solid #eee;
+	padding: 4rem 0;
+margin-bottom: 0;}
+.value-img {
+	display: block;
+	text-align: center;
+margin: 2.5rem auto 0; }
+.example-grid .column,
+.example-grid .columns {
+	background: #EEE;
+	text-align: center;
+	border-radius: 4px;
+	font-size: 1rem;
+	text-transform: uppercase;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: .75rem;
+	font-weight: 600;
+letter-spacing: .1rem; }
+.docs-example .row,
+.docs-example.row,
+.docs-example form {
+margin-bottom: 0; }
+.docs-example h1,
+.docs-example h2,
+.docs-example h3,
+.docs-example h4,
+.docs-example h5,
+.docs-example h6 {
+margin-bottom: 1rem; }
+.heading-font-size {
+	font-size: 1.2rem;
+	color: #999;
+letter-spacing: normal; }
+.code-example {
+	margin-top: 1.5rem;
+margin-bottom: 0; }
+.code-example-body {
+	white-space: pre;
+word-wrap: break-word }
+.example {
+	position: relative; 
+margin-top: 4rem; }
+.example-header {
+	font-weight: 600;
+	margin-top: 1.5rem;
+margin-bottom: .5rem; }
+.example-description {
+margin-bottom: 1.5rem; }
+.example-screenshot-wrapper {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	border-radius: 6px;
+	border: 1px solid #eee;
+height: 250px; }
+.example-screenshot {
+	width: 100%;
+height: 250px; }
+.example-screenshot.coming-soon {
+	width: auto;
+	position: absolute;
+	background: #eee;
+	top: 5px;
+	right: 5px;
+	bottom: 5px;
+left: 5px; }
+.navbar {
+display: none; }
+
+/* Larger than phone */
+@media (min-width: 550px) {
+	.example-grid .column,
+	.example-grid .columns {
+	margin-bottom: 1.5rem; }
+	.example-screenshot-wrapper {
+		position: absolute;
+		width: 48%;
+		height: 100%;
+		left: 0;
+	max-height: none; }
+}
