@@ -25,7 +25,8 @@ func projects(w http.ResponseWriter, req *http.Request) {
 
 func index(w http.ResponseWriter, req *http.Request) {
 	headfoot(w, req)
-	tpl.ExecuteTemplate(w, "index.gohtml", time.Now().Year())
+	images := [5]string{"mountains", "cloudExpload", "MRC_1", "MRC_2", "MRC_3"}
+	tpl.ExecuteTemplate(w, "index.gohtml", images)
 }
 
 func headfoot(w http.ResponseWriter, req *http.Request) {
