@@ -20,7 +20,7 @@ func main() {
 	http.Handle("/assets/", http.StripPrefix("/assets/", http.FileServer(http.Dir("assets"))))
 	http.HandleFunc("/", index)
 	http.HandleFunc("/projects/", projects)
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":80", nil)
 }
 
 func projects(w http.ResponseWriter, req *http.Request) {
